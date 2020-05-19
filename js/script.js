@@ -5,7 +5,7 @@ function start(){
     render();
 }
 
-function changeValue(value,colorValue){
+function changeValue(colorValue,value){
     colorValue.value = value.value;
 }
 
@@ -27,9 +27,9 @@ function render(){
         colors[i].addEventListener('change',changing);
         function changing(){
             changeBackground(valueRed.value,valueGreen.value,valueBlue.value);
-            changeValue(red,valueRed);
-            changeValue(green,valueGreen);
-            changeValue(blue,valueBlue);
+            changeValue(valueRed,red);
+            changeValue(valueGreen,green);
+            changeValue(valueBlue,blue);
         }
     } 
 }
