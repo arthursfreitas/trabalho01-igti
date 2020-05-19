@@ -1,0 +1,23 @@
+body{
+    background-color: #f9f9f9;
+}
+.seletor{
+    width: 700px;
+    margin: 100px;
+}
+input{
+    width: 250px;
+}
+span{
+    float: left;
+    width: 250px;
+}
+#valueRed, #valueGreen, #valueBlue{
+    width: 30px;
+}
+#color{
+    margin-top: 10px;
+    margin-left: 250px;
+    height: 100px;
+    width: 100px;
+}
